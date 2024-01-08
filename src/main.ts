@@ -20,6 +20,6 @@ async function bootstrap() {
   app.enableCors(); // permit all origins
   app.useGlobalPipes(new ValidationPipe()); // use validation pipe
 
-  await app.listen(parseInt(process.env.PORT));
+  await app.listen(parseInt(process.env.PORT) || 3000);
 }
 bootstrap();

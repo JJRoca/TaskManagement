@@ -15,15 +15,7 @@ import { AuthModule } from './auth/auth.module';
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      ssl: process.env.POSTGRES_SSL === 'true',
-      extra: {
-        ssl:
-          process.env.POSTGRES_SSL == 'true'
-            ? {
-                rejectUnauthorized: false,
-              }
-            : null,
-      },
+      ssl: true,
       autoLoadEntities: true,
       synchronize: true, // Auto create table
     }),
