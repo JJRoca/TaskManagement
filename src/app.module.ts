@@ -14,9 +14,16 @@ import { AuthModule } from './auth/auth.module';
       username: process.env.DB_USERNAME,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
-      // url: 'postgres://root:h30MkVot5Esxe4jM1F8KzQdOMzsUd3mh@dpg-cmcr7gv109ks7392nnsg-a.oregon-postgres.render.com/task_hqa4',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      ssl: true,
+      ssl: process.env.POSTGRES_SSL === 'true',
+      extra: {
+        ssl:
+          process.env.POSTGRES_SSL == 'true'
+            ? {
+                rejectUnauthorized: false,
+              }
+            : null,
+      },
       autoLoadEntities: true,
       synchronize: true, // Auto create table
     }),
