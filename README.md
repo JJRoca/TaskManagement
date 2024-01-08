@@ -26,24 +26,24 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-# Nombre del Proyecto
+# Project Name
 
-Este es un proyecto de gestión de tareas construido con NestJS y PostgreSQL. Permite a los usuarios crear, actualizar, eliminar y listar tareas. También incluye autenticación y autorización para proteger las tareas de cada usuario.
+This is a task management project built with NestJS and PostgreSQL. It allows users to create, update, delete, and list tasks. It also includes authentication and authorization to protect each user's tasks.
 
-## Características
+## Features
 
-- Crear, actualizar, eliminar y listar tareas.
-- Autenticación de usuarios.
-- Autorización basada en roles.
-- Persistencia de datos con PostgreSQL.
-- Despliegue en Render.
+- Create, update, delete, and list tasks.
+- User authentication.
+- Role-based authorization.
+- Data persistence with PostgreSQL.
+- Deployment on Render.
 
-## Cómo usar
+## How to Use
 
-1. Clona el repositorio.
-2. Instala las dependencias con `npm install`.
-3. Configura las variables de entorno en un archivo `.env`.
-4. Inicia el servidor con `npm start`.
+1. Clone the repository.
+2. Install dependencies with `npm install`.
+3. Set up environment variables in a `.env` file.
+4. Start the server with `npm start`.
 
 ## Installation
 
