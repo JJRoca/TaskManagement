@@ -5,6 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserModule } from './user/user.module';
 import { TaskModule } from './task/task.module';
 import { AuthModule } from './auth/auth.module';
+console.log(process.env.DB_USERNAME);
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -15,7 +16,6 @@ import { AuthModule } from './auth/auth.module';
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      ssl: true,
       autoLoadEntities: true,
       synchronize: true, // Auto create table
     }),
