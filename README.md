@@ -26,6 +26,25 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+# Nombre del Proyecto
+
+Este es un proyecto de gestión de tareas construido con NestJS y PostgreSQL. Permite a los usuarios crear, actualizar, eliminar y listar tareas. También incluye autenticación y autorización para proteger las tareas de cada usuario.
+
+## Características
+
+- Crear, actualizar, eliminar y listar tareas.
+- Autenticación de usuarios.
+- Autorización basada en roles.
+- Persistencia de datos con PostgreSQL.
+- Despliegue en Render.
+
+## Cómo usar
+
+1. Clona el repositorio.
+2. Instala las dependencias con `npm install`.
+3. Configura las variables de entorno en un archivo `.env`.
+4. Inicia el servidor con `npm start`.
+
 ## Installation
 
 ```bash
@@ -61,12 +80,6 @@ $ npm run test:cov
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
