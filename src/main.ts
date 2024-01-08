@@ -10,7 +10,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Task Management for users API')
     // eslint-disable-next-line prettier/prettier
-    .setDescription('This is a task manager where a person assigns tasks to users')
+    .setDescription('This is a task manager where a person assigns tasks to users.<strong>Please sign in or authenticate to use the API endpoints.</strong><br/>')
     .setVersion('1.0')
     .addTag('Task')
     .addBearerAuth() // Add the Bearer token authentication
