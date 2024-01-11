@@ -37,7 +37,11 @@ This is a task management project built with NestJS and PostgreSQL. It allows us
 - Role-based authorization.
 - Data persistence with PostgreSQL.
 - Deployment on Render.
-
+## Roles
+- TaskAssigner: This role allows users to assign tasks to others.
+- TaskViewer: Users with this role can view the tasks assigned to them.
+  
+To view the API documentation, visit [here](https://test-management-jewy.onrender.com/api).
 ## How to Use
 
 1. Clone the repository.
