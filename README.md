@@ -41,7 +41,8 @@ This is a task management project built with NestJS and PostgreSQL. It allows us
 - TaskAssigner: This role allows users to assign tasks to others.
 - TaskViewer: Users with this role can view the tasks assigned to them.
   
-To view the API documentation, visit [here](https://test-management-jewy.onrender.com/api).
+- To view available endpoints and interact with the API, go to <a href="https://test-management-jewy.onrender.com/api">https://test-management-jewy.onrender.com/api</a>.<br/>
+
 ## How to Use
 
 1. Clone the repository.
